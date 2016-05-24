@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Facebook emoticons",
+    "description": "Display some Facebook emoticons in a popup",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_icon": "assets/img/facebook.png",
+        "default_popup": "facebook.html",
+        "default_title": "Clique para exibir os emoticons"
+    }
+}
