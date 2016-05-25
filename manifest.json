@@ -7,5 +7,6 @@
         "default_icon": "assets/img/facebook.png",
         "default_popup": "facebook.html",
         "default_title": "Clique para exibir os emoticons"
-    }
+    },
+     "options_page": "facebook.html"
 }
