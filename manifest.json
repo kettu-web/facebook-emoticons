@@ -9,5 +9,14 @@
         "default_title": "Clique para exibir os emoticons"
     },
      "options_page": "options_page.html",
-     "minimum_chrome_version": "50"
+     "minimum_chrome_version": "50",
+    "content_scripts": [ {
+      "all_frames": false,
+        "js": [ "assets/js/facebook.js" ],
+      "matches": [
+          "https://www.facebook.com/*"
+      ],
+      "run_at": "document_start"
+   }],
+     "permissions": ["https://www.facebook.com/*"]
 }
